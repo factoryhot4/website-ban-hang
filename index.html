@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="style.css" rel="stylesheet">
+
+    <link href="./css/lightslider.css" rel="stylesheet">
+
+    <script src="./js/jquey.js"></script>
+
+    <script src="./js/lightslider.js"></script>
+
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="promo">
+        <span></span>
+    </div>
+    <header>
+        <a href="#" class="logo">Cây Cảnh</a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="navigation ">
+            <li class="link-item"><a href="#home" onclick="toggleMenu()">Trang chủ</a></li>
+            <li class="link-item"><a href="#product" onclick="toggleMenu()">Sản phẩm</a></li>
+            <li class="link-item"><a href="#about" onclick="toggleMenu()">Giới thiệu</a></li>
+            <li class="link-item"><a href="#contact" onclick="toggleMenu()">Liên hệ</a></li>
+        </ul>
+        <div class="icons d-flex">
+            <div><i title="tìm kiếm" class='bx bx-search-alt-2'></i></div>
+            <div><i title="đăng nhập" class='bx bx-user' ></i></div>
+            <div>
+                <i title="giỏ hàng" class='bx bx-shopping-bag' ></i>
+                <span class="align-item">0</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="home">
+        <div class="slider">
+            <div class="slide slide1 ">
+                <div class="content">
+                    <h1><span>Miễn phí </span>vận chuyển</h1>
+                    <a href="#" class="button">Tìm hiểu thêm</a>
+                </div>
+            </div>
+            <div class="slide slide2 ">
+                <div class="content">
+                    <h1>Hỗ trợ đổi trả trong <span> 14 ngày</span></h1>
+                    <a href="#" class="button">Tìm hiểu thêm</a>
+                </div>
+            </div>
+            <div class="slide slide3 ">
+                <div class="content">
+                    <h1>Hệ thống phục vụ <span>24/7</span></h1>
+                    <a href="#" class="button">Tìm hiểu thêm</a>
+                </div>
+            </div>
+            <div class="slide slide1 ">
+                <div class="content">
+                    <h1><span>Miễn phí </span>vận chuyển</h1>
+                    <a href="#" class="button">Tìm hiểu thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="product">
+        <section>
+            <p>
+                Sản phẩm
+            </p>
+            <hr>
+            <div class="product-container">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product0.jpg">  
+                    </div>                         
+                    <h1>Cây Lưỡi Hổ</h1>
+                    <p>220,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product14.jpg">  
+                    </div>                         
+                    <h1>Cây Sen Thái</h1>
+                    <p>70,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product13.jpg">  
+                    </div>                         
+                    <h1>Cây Sen Thạch Bích</h1>
+                    <p>95,000 đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product8.jpg">  
+                    </div>                         
+                    <h1>Cây Hồng Môn</h1>
+                    <p>250,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product9.jpg">  
+                    </div>                         
+                    <h1>Cây Vạn Lộc</h1>
+                    <p>200,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product4.jpg">  
+                    </div>                         
+                    <h1>Cây Dương Xỉ Cẩm Thạch</h1>
+                    <p>125,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product5.jpg">  
+                    </div>                         
+                    <h1>Cây Si Bonsai</h1>
+                    <p>185,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product6.png">  
+                    </div>                         
+                    <h1>Cây Trạng Nguyên</h1>
+                    <p>300,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product7.jpg">  
+                    </div>                         
+                    <h1>Cây Mai Vạn Phúc</h1>
+                    <p>200,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product10.jpg">  
+                    </div>                         
+                    <h1>Cây Hạnh Phúc</h1>
+                    <p>215,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product11.png">  
+                    </div>                         
+                    <h1>Cây Tùng Bồng Lai</h1>
+                    <p>320,000 đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product12.jpg">  
+                    </div>                         
+                    <h1>Cây hải đường</h1>
+                    <p>85,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="hot-product">
+        <section>
+        <p>
+            Sản phẩm bán chạy
+        </p>
+        <hr>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product12.jpg">  
+                    </div>                         
+                    <h1>Cây hải đường</h1>
+                    <p>85,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </li>
+
+            <li class="item-b">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product13.jpg">  
+                    </div>                         
+                    <h1>Cây Sen Thạch Bích</h1>
+                    <p>95,000 đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </li>
+
+            <li class="item-c">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product14.jpg">  
+                    </div>                         
+                    <h1>Cây Sen Thái</h1>
+                    <p>70,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </li>
+
+            <li class="item-d">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product7.jpg">  
+                    </div>                         
+                    <h1>Cây Mai Vạn Phúc</h1>
+                    <p>200,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </li>
+
+            <li class="item-e">
+                <div class="card">  
+                    <div class="img-wrap">
+                        <img src="image/product4.jpg">  
+                    </div>                         
+                    <h1>Cây Dương Xỉ Cẩm Thạch</h1>
+                    <p>125,000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </li>
+        </ul>
+
+     </section>
+    </main>
+
+
+    <main id="about" class="ab">
+        <section class="about">
+            <div class="left-section">
+                <div class="content">
+                    <h1>
+                        Về chúng tôi
+                    </h1>
+                    <p>
+                        Hãy một lần đến với web <span>Cây Cảnh </span>, chúng tôi không hứa gì ngoài việc mang đến cho bạn các sản phẩm cây cảnh và dịch vụ chất lượng cao nhất thông qua quy trình bán hàng, giao hàng, chăm sóc khách hàng, chăm sóc sản phẩm tiêu chuẩn… VỚI GIÁ CẢ PHẢI CHĂNG VÀ PHÙ HỢP TÚI TIỀN.
+                    <p>
+                    <a href="#" class="button">Read more</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="image/bg1.jpg">
+            </div>
+        </section>
+    </main>
+
+
+    <div class="subcribe">
+        <form>
+            <h1>Gia Nhập Với Chúng Tôi</h1>
+            <p>
+                Nhập địa chỉ email để có thể nhận được thông tin ưu đãi hàng ngày
+            </p>
+            <div class="email-box">
+                <i class='bx bx-mail-send'></i>
+                <input class="email-icon" type="email" placeholder="Mời bạn nhập email">
+                <a href="#" class="button">ĐĂNG KÍ</a>
+            </div>
+        </form>
+    </div>
+
+    <footer id="contact">
+        <section>
+            <div class="col-1">
+                <h2>THEO DÕI CHÚNG TÔI</h2>
+                <div>
+                    <i class='bx bxl-facebook' ></i>
+                    Facebook
+                </div>
+                <div>
+                    <i class='bx bxl-twitter' ></i>
+                    Twitter
+                </div>
+                <div>
+                    <i class='bx bxl-instagram-alt'></i>
+                    Instagram
+                </div>
+                <div>
+                    <i class='bx bxl-youtube' ></i>
+                    Youtube
+                </div>
+            </div>
+            <div class="col-2">
+                <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
+                <div class="box">
+                    <div class="contact">
+                        <i class='bx bxs-map' ></i>
+                        <h3>Địa chỉ công ty</h3>
+                        <h4>Căn 202, khu tập thể A8 , Bùi Ngọc Dương, tp Hà Nội</h4>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="contact">
+                        <i class='bx bxs-phone-call' ></i>
+                        <h3>Hot line</h3>
+                        <h4>0985 6301 97</h4>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="contact">
+                        <i class='bx bx-mail-send' ></i>
+                        <h3>Địa chỉ email</h3>
+                        <h4>CayCanh@gmail.com.vn</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
